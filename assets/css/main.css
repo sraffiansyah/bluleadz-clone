@@ -1,0 +1,60 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+.cu{
+    background-color: rgb(66, 80, 165);
+    width: 116px;
+    height: 33px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    margin-top: 3px;
+    font-family: roboto, sans-serif;
+    box-shadow: -2px 3px rgb(190, 190, 190);
+    font-size: 15px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navbar-expand-lg{
+    margin-left: 105px;
+    margin-right: 130px;
+}
+.nav-flex-logo{
+    display: flex;
+}
+.bi-caret-down{
+    margin-top: 10px;
+}
+.clr-hvrpr, .clr-hvrau, .clr-hvrr, .clr-hvrs, .clr-hvrhs{
+    font-family: roboto, sans-serif;
+}
+.clr-hvrau{
+    width: 66px;
+}
+.clr-hvrpr{
+    margin-right: 6px;
+    font-size: 16px;
+}
+.arrow-nav{
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(0, 191, 255);
+}
+.hvr-navfull:hover .arrow-nav{
+    color: red;
+    transition: 0.2s;
+    transform: rotate(-90deg);
+}
+.hvr-navfull:hover .arrow-nav{
+    color: rgb(0, 0, 255);
+    transition: 0.2s;
+    transform: rotate(-90deg);
+}
+.hvr-navfull:hover .clr-bl{
+    color: rgb(0, 191, 255);
+    transition: 0.2s;
+}
+.clr-bl{
+    transition: 0.2s;
+}
