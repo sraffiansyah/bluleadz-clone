@@ -12,6 +12,9 @@
     box-shadow: -2px 3px rgb(190, 190, 190);
     font-size: 15px;
 }
+.mrgn-nav{
+    margin-top: 12px;
+}
 .dropdown:hover .dropdown-menu{
     display: block;
 }
@@ -21,6 +24,7 @@
 }
 .nav-flex-logo{
     display: flex;
+    margin-right: 18px;
 }
 .bi-caret-down{
     margin-top: 10px;
@@ -57,4 +61,17 @@
 }
 .clr-bl{
     transition: 0.2s;
+}
+.flax-komp{
+    display: flex;
+}
+
+/* nav kompleks */
+.nav-komp-hs{
+    display: flex;
+    text-align: left;
+}
+.nav-komp-s{
+    display: flex;
+    text-align: left;
 }
