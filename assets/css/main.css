@@ -67,11 +67,7 @@
 }
 
 /* nav kompleks */
-.nav-komp-hs{
-    display: flex;
-    text-align: left;
-}
-.nav-komp-s{
+.nav-komp-hs, .nav-komp-s, .nav-komp-r, .nav-komp-au{
     display: flex;
     text-align: left;
 }
