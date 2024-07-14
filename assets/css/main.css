@@ -381,22 +381,6 @@ a{
 .c2{
     height: 22.5rem;
 }
-.card-shdw1::after, .card-shdw2::after, .card-shdw3::after{
-    content: '';
-    position: absolute;
-    height: 24.7rem;
-    width: 19.6rem;
-    background:rgb(223, 223, 223);
-    filter: blur(3px);
-}
-.card-shdw4::after, .card-shdw5::after{
-    content: '';
-    position: absolute;
-    height: 23.1rem;
-    width: 19.6rem;
-    background:rgb(223, 223, 223);
-    filter: blur(3px);
-}
 .card-shdw1::after{
     top: 5px;
     left: 59.5px;
