@@ -520,3 +520,25 @@ a{
 .s8-desk-bottom-right{
     font-size: 15px;
 }
+
+/* section 9 */
+.s9-box{
+    margin: 170px 20px;
+}
+.s9-number1, .s9-number2, .s9-number3{
+    font-size: 30px;
+    font-weight: 800;
+}
+.s9-text{
+    font-weight: 500;
+    padding-top: 12px;
+}
+.s9-number1{
+    color: pink;
+}
+.s9-number2{
+    color: rgb(0, 4, 255);
+}
+.s9-number3{
+    color: rgb(255, 182, 80);
+}
