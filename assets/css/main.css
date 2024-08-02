@@ -527,7 +527,7 @@ a{
 }
 .s9-number1, .s9-number2, .s9-number3{
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
 }
 .s9-text{
     font-weight: 500;
@@ -541,4 +541,29 @@ a{
 }
 .s9-number3{
     color: rgb(255, 182, 80);
+}
+
+
+
+/* section 11 */
+.s11-box{
+    width: 680px;
+    margin-top: 70px;
+}
+.s11-title{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+.s11-desk{
+    color: white;
+    margin-top: 20px;
+}
+.s11-button{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 8px;
 }
