@@ -279,16 +279,20 @@ a{
     width: 470px;
 }
 .au-left{
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(255, 174, 0);
     font-weight: 500;
     margin-bottom: 12px;
+    margin-right: 25px;
 }
 .au-right{
     font-size: 14px;
     color: rgb(0, 217, 255);
     font-weight: 500;
     margin-bottom: 12px;
+}
+.opsi-title{
+    font-size: 12.5px;
 }
 
 
@@ -566,4 +570,85 @@ a{
     height: 50px;
     font-size: 20px;
     padding-top: 8px;
+}
+
+/* footer */
+.container-footer{
+    padding: 0 200px;
+    margin-bottom: 40px;
+}
+.ft-box-sc{
+    position: relative;
+}
+.ft-desk-sc-top, .ft-sc{
+    position: absolute;
+}
+.ft-desk-sc-top{
+    right: 520px;
+    font-weight: 500;
+    color: blue;
+}
+.ft-sc{
+    border-radius: 6px;
+    width: 250px;
+    right: 250px;
+}
+.ft-mid{
+    margin-top: 50px;
+}
+.footer-mid1{
+    width: 280px;
+    margin-top: 20px;
+}
+.ft-mid1-desk{
+    margin: 10px 0 ;
+    font-size: 20px;
+}
+.ft-mid1-number{
+    color: orange;
+    cursor: pointer;
+}
+.ft-mid-link{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.ft-mid-link:hover{
+    text-decoration: underline;
+}
+.ft-mid-link:active{
+    color: blue;
+}
+.ft-mid2-title{
+    font-weight: 700;
+    color: darkblue;
+    margin-top: 20px;
+}
+.ft-mid3-title{
+    font-weight: 700;
+    color: rgb(0, 221, 0);
+    margin-top: 20px;
+}
+.ft-mid4-title{
+    color: rgb(255, 170, 0);
+    margin-top: -5px;
+}
+.ft-mid5-title{
+    font-weight: 700;
+    color: rgb(0, 191, 255);
+    margin-top: 20px;
+}
+.ft-mid6-title{
+    font-weight: 700;
+    color: rgb(255, 179, 0);
+    margin-top: 20px;
+}
+
+/* footer 2 */
+.ft-bottom-left, .ft-bottom-right{
+    width: 300px;
+}
+.ft-bottom-left{
+    color: white;
+    margin-top: 75px;
 }
